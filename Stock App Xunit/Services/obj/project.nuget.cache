@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "dRXxh6SKamnAwerVePObx+cF/388/9vZdnlU6rI4L/OuMthdSEVu7nOKbrPSiJifKL6KsSjPeXu0YZv9QW9r9g==",
+  "dgSpecHash": "IErPkykyB3EGfFoPhgkSZExaEXz0KqTLJ3O3D0OJg+lRPLoU5T6as0r2P8X2cmeob8OQxxHq0oSnTvQTkE1kaA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\3bood\\source\\repos\\Stock App\\Services\\Services.csproj",
+  "projectFilePath": "C:\\Users\\3bood\\Source\\Repos\\abdllah197\\ASP.NET-Core-6-Udemy\\Stock App Xunit\\Services\\Services.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\3bood\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\7.0.0\\microsoft.extensions.configuration.abstractions.7.0.0.nupkg.sha512",
     "C:\\Users\\3bood\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\7.0.0\\microsoft.extensions.dependencyinjection.7.0.0.nupkg.sha512",

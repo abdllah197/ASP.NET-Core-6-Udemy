@@ -1,9 +1,12 @@
-﻿namespace Services
+﻿using ServiceContracts.DTO;
+
+namespace Services
 {
 	public interface IFinnhubService
 	{
 		Dictionary<string, object>? GetCompanyProfile(string stockSymbol);
 
 		Dictionary<string, object>? GetStockPriceQuote(string stockSymbol);
-	}
+        
+    }
 }

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "2uo0IJ2tIrT6dErjLu5B6y2BtCHU7/j27DJVT6Ke4GzbF+Sfcp9CIwzuiD0RVvK/vUfzeOGHHvz7QPaP40Y0Pw==",
+  "dgSpecHash": "X/WAQnG+WS/8bfzfl82JFIwu4R5h3LKye3oSnAdhGYOO+ZFgAalkP76FMrsAMwibNU446ljkh/Byrk7vKE3WHA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\3bood\\source\\repos\\Stock App\\IFinnhubService\\ServiceContracts.csproj",
+  "projectFilePath": "C:\\Users\\3bood\\Source\\Repos\\abdllah197\\ASP.NET-Core-6-Udemy\\Stock App Xunit\\IFinnhubService\\ServiceContracts.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

@@ -1,11 +1,30 @@
 {
   "version": 3,
   "targets": {
-    "net6.0": {}
+    "net6.0": {
+      "Entities/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/Entities.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Entities.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "Entities/1.0.0": {
+      "type": "project",
+      "path": "../Entities/Entities.csproj",
+      "msbuildProject": "../Entities/Entities.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net6.0": []
+    "net6.0": [
+      "Entities >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\3bood\\.nuget\\packages\\": {},
@@ -15,11 +34,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\3bood\\source\\repos\\Stock App\\IFinnhubService\\ServiceContracts.csproj",
+      "projectUniqueName": "C:\\Users\\3bood\\Source\\Repos\\abdllah197\\ASP.NET-Core-6-Udemy\\Stock App Xunit\\IFinnhubService\\ServiceContracts.csproj",
       "projectName": "ServiceContracts",
-      "projectPath": "C:\\Users\\3bood\\source\\repos\\Stock App\\IFinnhubService\\ServiceContracts.csproj",
+      "projectPath": "C:\\Users\\3bood\\Source\\Repos\\abdllah197\\ASP.NET-Core-6-Udemy\\Stock App Xunit\\IFinnhubService\\ServiceContracts.csproj",
       "packagesPath": "C:\\Users\\3bood\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\3bood\\source\\repos\\Stock App\\IFinnhubService\\obj\\",
+      "outputPath": "C:\\Users\\3bood\\Source\\Repos\\abdllah197\\ASP.NET-Core-6-Udemy\\Stock App Xunit\\IFinnhubService\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\DevExpress 22.1\\Components\\Offline Packages",
@@ -43,7 +62,11 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\3bood\\Source\\Repos\\abdllah197\\ASP.NET-Core-6-Udemy\\Stock App Xunit\\Entities\\Entities.csproj": {
+              "projectPath": "C:\\Users\\3bood\\Source\\Repos\\abdllah197\\ASP.NET-Core-6-Udemy\\Stock App Xunit\\Entities\\Entities.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

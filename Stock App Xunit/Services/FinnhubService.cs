@@ -1,5 +1,6 @@
 ﻿
 using Microsoft.Extensions.Configuration;
+using ServiceContracts.DTO;
 using System.Net.Http;
 using System.Text.Json;
 
@@ -7,6 +8,8 @@ namespace Services
 {
 	public class FinnhubService : IFinnhubService
 	{
+		#region ServiceInjection
+
 		private readonly IHttpClientFactory _httpClientFactory;
 		private readonly IConfiguration _configuration;
 		public FinnhubService(IHttpClientFactory httpClientFactory,IConfiguration configuration)
@@ -14,8 +17,10 @@ namespace Services
 			_httpClientFactory = httpClientFactory;
 			_configuration = configuration;
 		}
-
-		public Dictionary<string, object>? GetCompanyProfile(string stockSymbol)
+		#endregion
+		
+        #region GetCompanyProfil
+        public Dictionary<string, object>? GetCompanyProfile(string stockSymbol)
 		{
 			HttpClient httpClient = _httpClientFactory.CreateClient();
 			HttpRequestMessage httpRequestMessage = new HttpRequestMessage()
@@ -37,8 +42,10 @@ namespace Services
 			}
 			return result;
 		}
+        #endregion
 
-		public Dictionary<string, object>? GetStockPriceQuote(string stockSymbol)
+        #region GetStockPriceQuote
+        public Dictionary<string, object>? GetStockPriceQuote(string stockSymbol)
 		{
 			HttpClient httpClient = _httpClientFactory.CreateClient();
 			HttpRequestMessage httpRequestMessage = new HttpRequestMessage()
@@ -60,5 +67,6 @@ namespace Services
 			}
 			return result;
 		}
-	}
+        #endregion
+    }
 }

@@ -11,23 +11,15 @@
 </head>
 <body>
     <div class="container">
-        <div class="page-content">
-            <div class="margin-bottom">
-                <div class="flex" id="top-bar-div">
-                    <div class="flex-1" id="app-title-div">
-                        <h1 class="app-title">
-                            <i class="fa-solid fa-money-bill-trend-up"></i>
-                            Stocks
-                        </h1>
-                    </div>
-                </div>
+      <div class="flex-1" id="app-title-div">
+        <h1 class="app-title">
+                <i class="fa-solid fa-money-bill-trend-up">Stocks</i>
+          
+        </h1>
+         @RenderBody()
+       </div>
+     </div>
 
-            </div>
-
-            @RenderBody()
-        </div>
-
-    </div>
 
     @await RenderSectionAsync("scripts", required: false)
 </body>

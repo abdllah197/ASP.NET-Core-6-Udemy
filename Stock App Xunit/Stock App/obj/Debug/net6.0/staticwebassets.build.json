@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "yXMB6mfRCwBOorj9QcqvlZ8T0xiJxXBPmRNz98b+vB0=",
+  "Hash": "XVMK4NC23vH7nBv+CFU176oVKIMwtsARXgA+RMDRDLg=",
   "Source": "Stock App",
   "BasePath": "_content/Stock App",
   "Mode": "Default",
@@ -10,17 +10,17 @@
     {
       "Name": "Stock App\\wwwroot",
       "Source": "Stock App",
-      "ContentRoot": "C:\\Users\\3bood\\source\\repos\\Stock App\\Stock App\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\3bood\\Source\\Repos\\abdllah197\\ASP.NET-Core-6-Udemy\\Stock App Xunit\\Stock App\\wwwroot\\",
       "BasePath": "_content/Stock App",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "C:\\Users\\3bood\\source\\repos\\Stock App\\Stock App\\wwwroot\\Scripts\\FinnhubScript.js",
+      "Identity": "C:\\Users\\3bood\\Source\\Repos\\abdllah197\\ASP.NET-Core-6-Udemy\\Stock App Xunit\\Stock App\\wwwroot\\Scripts\\FinnhubScript.js",
       "SourceId": "Stock App",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\3bood\\source\\repos\\Stock App\\Stock App\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\3bood\\Source\\Repos\\abdllah197\\ASP.NET-Core-6-Udemy\\Stock App Xunit\\Stock App\\wwwroot\\",
       "BasePath": "_content/Stock App",
       "RelativePath": "Scripts/FinnhubScript.js",
       "AssetKind": "All",
@@ -34,10 +34,10 @@
       "OriginalItemSpec": "wwwroot\\Scripts\\FinnhubScript.js"
     },
     {
-      "Identity": "C:\\Users\\3bood\\source\\repos\\Stock App\\Stock App\\wwwroot\\StyleSheet.css",
+      "Identity": "C:\\Users\\3bood\\Source\\Repos\\abdllah197\\ASP.NET-Core-6-Udemy\\Stock App Xunit\\Stock App\\wwwroot\\StyleSheet.css",
       "SourceId": "Stock App",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\3bood\\source\\repos\\Stock App\\Stock App\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\3bood\\Source\\Repos\\abdllah197\\ASP.NET-Core-6-Udemy\\Stock App Xunit\\Stock App\\wwwroot\\",
       "BasePath": "_content/Stock App",
       "RelativePath": "StyleSheet.css",
       "AssetKind": "All",
