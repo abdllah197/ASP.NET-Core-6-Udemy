@@ -1,0 +1,37 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = Stock_App
+build_property.RootNamespace = Stock_App
+build_property.ProjectDir = C:\Users\3bood\Source\Repos\abdllah197\ASP.NET-Core-6-Udemy\Stock App Xunit\Stock App\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\3bood\Source\Repos\abdllah197\ASP.NET-Core-6-Udemy\Stock App Xunit\Stock App
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/3bood/Source/Repos/abdllah197/ASP.NET-Core-6-Udemy/Stock App Xunit/Stock App/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/3bood/Source/Repos/abdllah197/ASP.NET-Core-6-Udemy/Stock App Xunit/Stock App/Views/Trade/About.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVHJhZGVcQWJvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/3bood/Source/Repos/abdllah197/ASP.NET-Core-6-Udemy/Stock App Xunit/Stock App/Views/Trade/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVHJhZGVcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/3bood/Source/Repos/abdllah197/ASP.NET-Core-6-Udemy/Stock App Xunit/Stock App/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/3bood/Source/Repos/abdllah197/ASP.NET-Core-6-Udemy/Stock App Xunit/Stock App/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
