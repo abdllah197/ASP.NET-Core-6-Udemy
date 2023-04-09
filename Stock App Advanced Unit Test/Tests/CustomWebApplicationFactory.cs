@@ -1,7 +1,10 @@
 ﻿using Entities;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Mvc.Testing;
+using Microsoft.VisualStudio.TestPlatform.TestHost;
+using Microsoft.EntityFrameworkCore.InMemory;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 
 namespace Tests
@@ -12,14 +15,27 @@ namespace Tests
         {
             base.ConfigureWebHost(builder);
             builder.UseEnvironment("Test");
-            builder.ConfigureServices(services =>
-            {
+            builder.ConfigureServices(services => {
                 var descripter = services.SingleOrDefault(temp => temp.ServiceType == typeof(DbContextOptions<ApplicationDbContext>));
+
                 if (descripter != null)
+                {
                     services.Remove(descripter);
-                services.AddDbContext<ApplicationDbContext>(option =>
-                option.UseInMemoryDatabase("DatbaseForTesting")
-                );
+                }
+                services.AddDbContext<ApplicationDbContext>(options =>
+                {
+                    options.UseInMemoryDatabase("DatbaseForTesting");
+                });
+            });
+
+            builder.ConfigureAppConfiguration((WebHostBuilderContext ctx, Microsoft.Extensions.Configuration.IConfigurationBuilder config) =>
+            {
+                var newConfiguration = new Dictionary<string, string>() {
+                 {
+                        "FinnhubToken", "cc676uaad3i9rj8tb1s0" }
+                 };
+
+                config.AddInMemoryCollection(newConfiguration);
             });
 
 

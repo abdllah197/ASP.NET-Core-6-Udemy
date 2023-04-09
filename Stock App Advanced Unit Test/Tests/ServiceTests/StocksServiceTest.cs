@@ -1,6 +1,5 @@
 using AutoFixture;
 using Moq;
-using EntityFrameworkCoreMock;
 using ServiceContracts;
 using ServiceContracts.DTO;
 using Services;
