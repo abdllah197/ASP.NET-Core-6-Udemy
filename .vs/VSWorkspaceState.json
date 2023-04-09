@@ -1,10 +1,10 @@
 {
   "ExpandedNodes": [
     "",
-    "\\Stock App Entity Franework",
-    "\\Stock App Entity Franework\\Stock App",
-    "\\Stock App Entity Franework\\Stock App\\Controllers"
+    "\\Stock App Advanced Unit Test",
+    "\\Stock App Advanced Unit Test\\Tests",
+    "\\Stock App Advanced Unit Test\\Tests\\ControllerTests",
+    "\\Stock App Advanced Unit Test\\Tests\\ServiceTests"
   ],
-  "SelectedNode": "\\Stock App Entity Franework\\Stock App\\Controllers\\TradeController.cs",
   "PreviewInSolutionExplorer": false
 }
