@@ -1,0 +1,78 @@
+﻿@using ServiceContracts.DTO;
+@model Orders
+@{
+	ViewBag.Title = "Orders";
+	ViewBag.CurrentUrl = "Orders";
+}
+<div class="text-grey ml">
+	<span>Stocks</span>
+	<i class="fa-solid fa-caret-right"></i>
+	<span>Orders</span>
+
+	<div class="flex-1 text-right">
+		<a asp-controller="Trade" asp-action="OrdersPDF" class="mr">Download as PDF</a>
+	</div>
+</div>
+<div class="flex orders-list">
+	<div id="buy-orders-list">
+		<div class="box">
+			<h4 class="text-text-grey mb">Buy Orders</h4>
+			@{
+				foreach (BuyOrderResponse buyorderresponse in Model.BuyOrders)
+				{
+					<div class="border-bottom p">
+
+						<div>
+							<h3>@buyorderresponse.StockName (@buyorderresponse.StockSymbol)</h3>
+							<h5>
+								<small class="mb">@buyorderresponse.Quantity</small>
+								<span class="text-grey"> shares at </span>
+								<small>$@buyorderresponse.Price.ToString("N")</small>
+							</h5>
+							<h5>
+								<span class="text-grey mb">Trade Amount: </span>
+								@{ViewBag.BuyTradeAmount=(buyorderresponse.Price * buyorderresponse.Quantity).ToString("N");}
+								<small>$@ViewBag.BuyTradeAmount</small>
+							</h5>
+							<h5>
+								<span class="text-grey">@buyorderresponse.DateAndTimeOfOrder.ToString("dd/MMM/yyyy hh:mm:ss")</span>
+							</h5>
+						</div>
+
+					</div>
+				}
+			}
+		</div>
+	</div>
+	<div id="sell-orders-list">
+		<div class="box">
+			<h4 class="text-text-grey mb">Sell Orders</h4>
+			@{
+				foreach (SellOrderResponse sellorderresponse in Model.SellOrders)
+				{
+					<div class="border-bottom p">
+						<div>
+							<h3>@sellorderresponse.StockName (@sellorderresponse.StockSymbol)</h3>
+							<h5>
+								<small class="mb">@sellorderresponse.Quantity</small>
+								<span class="text-grey"> shares at </span>
+								<small>$@sellorderresponse.Price.ToString("N")</small>
+							</h5>
+							<h5>
+								<span class="text-grey mb">Trade Amount: </span>
+								
+								@{
+									ViewBag.SellTradeAmount = (sellorderresponse.Price * sellorderresponse.Quantity).ToString("N");}
+
+								<small>$@ViewBag.SellTradeAmount</small>
+							</h5>
+							<h5>
+								<span class="text-grey">@sellorderresponse.DateAndTimeOfOrder.ToString("dd/MMM/yyyy hh:mm:ss")</span>
+							</h5>
+						</div>
+					</div>
+				}
+			}
+		</div>
+	</div>
+</div>
