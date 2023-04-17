@@ -9,33 +9,33 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Stock_App
 build_property.RootNamespace = Stock_App
-build_property.ProjectDir = C:\Users\3bood\Source\Repos\abdllah197\ASP.NET-Core-6-Udemy\Stock App Entity Franework\Stock App\
+build_property.ProjectDir = C:\Users\3bood\source\repos\abdllah197\ASP.NET-Core-6-Udemy\Stock App Entity Franework\Stock App\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\3bood\Source\Repos\abdllah197\ASP.NET-Core-6-Udemy\Stock App Entity Franework\Stock App
+build_property.MSBuildProjectDirectory = C:\Users\3bood\source\repos\abdllah197\ASP.NET-Core-6-Udemy\Stock App Entity Franework\Stock App
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/3bood/Source/Repos/abdllah197/ASP.NET-Core-6-Udemy/Stock App Entity Franework/Stock App/Views/Shared/_Layout.cshtml]
+[C:/Users/3bood/source/repos/abdllah197/ASP.NET-Core-6-Udemy/Stock App Entity Franework/Stock App/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/3bood/Source/Repos/abdllah197/ASP.NET-Core-6-Udemy/Stock App Entity Franework/Stock App/Views/Trade/Index.cshtml]
+[C:/Users/3bood/source/repos/abdllah197/ASP.NET-Core-6-Udemy/Stock App Entity Franework/Stock App/Views/Trade/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVHJhZGVcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/3bood/Source/Repos/abdllah197/ASP.NET-Core-6-Udemy/Stock App Entity Franework/Stock App/Views/Trade/Orders.cshtml]
+[C:/Users/3bood/source/repos/abdllah197/ASP.NET-Core-6-Udemy/Stock App Entity Franework/Stock App/Views/Trade/Orders.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVHJhZGVcT3JkZXJzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/3bood/Source/Repos/abdllah197/ASP.NET-Core-6-Udemy/Stock App Entity Franework/Stock App/Views/Trade/OrdersPDF.cshtml]
+[C:/Users/3bood/source/repos/abdllah197/ASP.NET-Core-6-Udemy/Stock App Entity Franework/Stock App/Views/Trade/OrdersPDF.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVHJhZGVcT3JkZXJzUERGLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/3bood/Source/Repos/abdllah197/ASP.NET-Core-6-Udemy/Stock App Entity Franework/Stock App/Views/_ViewImports.cshtml]
+[C:/Users/3bood/source/repos/abdllah197/ASP.NET-Core-6-Udemy/Stock App Entity Franework/Stock App/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/3bood/Source/Repos/abdllah197/ASP.NET-Core-6-Udemy/Stock App Entity Franework/Stock App/Views/_ViewStart.cshtml]
+[C:/Users/3bood/source/repos/abdllah197/ASP.NET-Core-6-Udemy/Stock App Entity Franework/Stock App/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
